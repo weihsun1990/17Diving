@@ -7,14 +7,14 @@
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_NewBackgroundProfile>False</_NewBackgroundProfile>
-    <_PublishTargetUrl>C:\Users\USER\Desktop\Developer\DotNet\17Diving\publish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\USER\Desktop\GitRepository\17Diving\publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/17Diving.dll">
-      <publishTime>11/07/2017 22:42:19</publishTime>
+      <publishTime>11/07/2017 23:57:28</publishTime>
     </File>
     <File Include="bin/17Diving.pdb">
-      <publishTime>11/07/2017 22:42:19</publishTime>
+      <publishTime>11/07/2017 23:57:28</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>02/22/2013 08:43:40</publishTime>
@@ -332,7 +332,7 @@
       <publishTime>11/07/2017 22:41:33</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/07/2017 22:46:44</publishTime>
+      <publishTime>11/07/2017 23:57:34</publishTime>
     </File>
   </ItemGroup>
 </Project>
