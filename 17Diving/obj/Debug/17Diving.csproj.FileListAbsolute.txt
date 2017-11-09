@@ -170,6 +170,6 @@ F:\case\17Diving\17Diving\bin\zh-Hant\Microsoft.Owin.Security.Facebook.resources
 F:\case\17Diving\17Diving\bin\zh-Hant\Microsoft.Owin.Security.Google.resources.dll
 F:\case\17Diving\17Diving\bin\zh-Hant\Microsoft.Owin.Security.Twitter.resources.dll
 F:\case\17Diving\17Diving\bin\zh-Hant\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-F:\case\17Diving\17Diving\obj\Debug\17Diving.csprojResolveAssemblyReference.cache
 F:\case\17Diving\17Diving\obj\Debug\17Diving.dll
 F:\case\17Diving\17Diving\obj\Debug\17Diving.pdb
+F:\case\17Diving\17Diving\obj\Debug\17Diving.csprojResolveAssemblyReference.cache
