@@ -1,123 +1,104 @@
-﻿<!DOCTYPE html>
-<html lang="zh-Hant-TW">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <title>Zone17 Diving Station</title>
-    <link rel="stylesheet" href="~/Content/Home_Index.css">
-</head>
-<script>
-    function QQQ(key) {
-        var top;
-        const singleHeight = document.body.clientHeight / 6;
-        window.scrollTo(0, (singleHeight * (key - 1)));
-    }
-</script>
-<body>
-    <header class="header">
-        <div class="info">
-            <div class="half">
-                <div class="logo"></div>
-                <div class="logo2"></div>
-            </div>
-            <div class="half">
-                <div class="icons"></div>
-                <div class="switchLanguage">切換語言</div>
-            </div>
+﻿<header class="header">
+    <div class="info row">
+        <div class="col-md-offset-1  col-md-5">
+            <div class="logo"></div>
+            <div class="logo2"></div>
         </div>
-        <div class="nav">
-            <div class="item" onclick="QQQ(1)">服務介紹</div>
-            <div class="item" onclick="QQQ(2)">潛水體驗</div>
-            <div class="item" onclick="QQQ(3)">住房資訊</div>
-            <div class="item" onclick="QQQ(4)">交通地圖</div>
-            <div class="item" onclick="QQQ(5)">活動公告</div>
-            <div class="item" onclick="QQQ(6)">聯絡我們</div>
+        <div class="col-md-5 col-md-offset-1">
+            <div class="icons"></div>
+            <div class="switchLanguage">切換語言</div>
         </div>
-    </header>
-    <div class="content">
-        <section class="body row">
-            <div class="col-md-offset-1  col-md-5 vertical-middle">
-                <div class="room1"></div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 vertical-middle">
-                <div class="title">服務介紹</div>
-                <div class="info-content">
-                    <div>提供住宿</div>
-                    <p>
-                        潛水的方式
-                        根據潛水的方式和各自使用的不同設備，潛水可分為以下幾類：
-                        不帶呼吸器的潛水
-                        浮潛：漂浮在水面上，潛水者面朝下通過面鏡觀賞水下景觀，同時通過一根較短的呼吸管伸出水面進行呼吸。
-                        自由潛水：不攜帶水下供氣設備，以單次呼吸並屏息再下潛。
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="body2 row">
-            <div class="col-md-offset-1  col-md-5 vertical-middle">
-                <div class="info-content">
-                    <div class="title">潛水體驗</div>
-                    <div>課程類別介紹</div>
-                    <div>教練介紹</div>
-                </div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 vertical-middle">
-                <div class="room2"></div>
-            </div>
-        </section>
-        <section class="body row">
-            <div class="col-md-offset-1  col-md-5 vertical-middle">
-                <div class="room1"></div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 vertical-middle">
-                <div class="info-content">
-                    <div class="title">住房資訊</div>
-                    <div>房型簡介</div>
-                    <div>接駁服務</div>
-                </div>
-            </div>
-        </section>
-        <section class="body2 row">
-            <div class="col-md-offset-1  col-md-5 vertical-middle">
-                <div class="info-content">
-                    <div class="title">交通地圖</div>
-                    <div>交通資訊</div>
-                    <div>地圖位置</div>
-                    <div>靜態地圖提供</div>
-                </div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 vertical-middle">
-                <div class="room2"></div>
-            </div>
-        </section>
-        <section class="body row">
-            <div class="col-md-offset-1  col-md-5 vertical-middle">
-                <div class="room1"></div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 vertical-middle">
-                <div class="info-content">
-                    <div class="title">活動公告</div>
-                    <div>公告清單</div>
-                    <div>活動歷程 (FB連結)</div>
-                    <div>地址: 屏東墾丁.南灣路659號</div>
-                </div>
-            </div>
-        </section>
-        <section class="body2 row">
-            <div class="col-md-offset-1  col-md-5 vertical-middle">
-                <div class="info-content">
-                    <div class="title">聯絡我們</div>
-                    <div>電話: (08)-888-1017</div>
-                    <div>郵件: 17diving@gmail.com</div>
-                    <div>地址: 屏東墾丁.南灣路659號</div>
-                </div>
-            </div>
-            <div class="col-md-5 col-md-offset-1 vertical-middle">
-                <div class="map"></div>
-            </div>
-        </section>
     </div>
-    <footer class="footer"></footer>
-</body>
-</html>
+    <div class="nav">
+        <div class="item" data-item="1">服務介紹</div>
+        <div class="item" data-item="2">潛水體驗</div>
+        <div class="item" data-item="3">住房資訊</div>
+        <div class="item" data-item="4">交通地圖</div>
+        <div class="item" data-item="5">活動公告</div>
+        <div class="item" data-item="6">聯絡我們</div>
+    </div>
+</header>
+<div class="content">
+    <section class="body row">
+        <div class="col-md-offset-1  col-md-5 vertical-middle">
+            <div class="room1"></div>
+        </div>
+        <div class="col-md-5 col-md-offset-1 vertical-middle">
+            <div class="title">服務介紹</div>
+            <div class="info-content">
+                <div>提供住宿</div>
+                <p>
+                    潛水的方式
+                    根據潛水的方式和各自使用的不同設備，潛水可分為以下幾類：
+                    不帶呼吸器的潛水
+                    浮潛：漂浮在水面上，潛水者面朝下通過面鏡觀賞水下景觀，同時通過一根較短的呼吸管伸出水面進行呼吸。
+                    自由潛水：不攜帶水下供氣設備，以單次呼吸並屏息再下潛。
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="body2 row">
+        <div class="col-md-offset-1  col-md-5 vertical-middle">
+            <div class="info-content">
+                <div class="title">潛水體驗</div>
+                <div>課程類別介紹</div>
+                <div>教練介紹</div>
+            </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1 vertical-middle">
+            <div class="room2"></div>
+        </div>
+    </section>
+    <section class="body row">
+        <div class="col-md-offset-1  col-md-5 vertical-middle">
+            <div class="room1"></div>
+        </div>
+        <div class="col-md-5 col-md-offset-1 vertical-middle">
+            <div class="info-content">
+                <div class="title">住房資訊</div>
+                <div>房型簡介</div>
+                <div>接駁服務</div>
+            </div>
+        </div>
+    </section>
+    <section class="body2 row">
+        <div class="col-md-offset-1  col-md-5 vertical-middle">
+            <div class="info-content">
+                <div class="title">交通地圖</div>
+                <div>交通資訊</div>
+                <div>地圖位置</div>
+                <div>靜態地圖提供</div>
+            </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1 vertical-middle">
+            <div class="room2"></div>
+        </div>
+    </section>
+    <section class="body row">
+        <div class="col-md-offset-1  col-md-5 vertical-middle">
+            <div class="room1"></div>
+        </div>
+        <div class="col-md-5 col-md-offset-1 vertical-middle">
+            <div class="info-content">
+                <div class="title">活動公告</div>
+                <div>公告清單</div>
+                <div>活動歷程 (FB連結)</div>
+                <div>地址: 屏東墾丁.南灣路659號</div>
+            </div>
+        </div>
+    </section>
+    <section class="body2 row">
+        <div class="col-md-offset-1  col-md-5 vertical-middle">
+            <div class="info-content">
+                <div class="title">聯絡我們</div>
+                <div>電話: (08)-888-1017</div>
+                <div>郵件: 17diving@gmail.com</div>
+                <div>地址: 屏東墾丁.南灣路659號</div>
+            </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1 vertical-middle">
+            <div class="map"></div>
+        </div>
+    </section>
+</div>
+<footer class="footer"></footer>
