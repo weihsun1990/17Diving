@@ -1,16 +1,14 @@
-﻿
-
-$(document).ready(function () {
+﻿(function ($) {
 
     $('.item').on('click', function () {
         var index = $(this).attr('data-item');
-        QQQ(index);
+        bannerSwitch(index);
     });
 
-});
+})(jQuery)
 
 
-function QQQ(key) {
+function bannerSwitch(key) {
     var top;
     const singleHeight = document.body.clientHeight / 6;
     window.scrollTo(0, (singleHeight * (key - 1)));
