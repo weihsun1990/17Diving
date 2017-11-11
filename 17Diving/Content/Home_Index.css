@@ -3,9 +3,27 @@
 }
 
 body {
-    background: url('../Content/images/ocean.jpg') no-repeat fixed left bottom;
+    background: url('../Content/images/ocean2.jpg') no-repeat fixed left bottom;
     background-size: cover;
     margin: 0;
+}
+
+.row-content {
+    color: #fff;
+    margin: 0 auto;
+    padding: 50px 20px;
+    font-size: 20px;
+    align-self: center;
+    height: calc(100vh - 150px);
+    overflow: hidden;
+}
+
+.row-content-yellow {
+    background: #676767;
+}
+
+.row-content-blue {
+    background: #8D8E8D;
 }
 
 .header {
@@ -27,8 +45,8 @@ body {
 
 
 .header .info {
-    height: 110px;
-    background: gray;
+    height: 140px;
+    background: #4F4F4F;
     min-width: 600px;
     padding: 0 10%;
     position: relative;
@@ -37,18 +55,18 @@ body {
 
     .header .info .logo {
         display: inline-block;
-        height: 80px;
-        width: 80px;
-        margin: 15px;
+        height: 90px;
+        width: 90px;
+        margin: 25px;
         background: url('../Content/images/17zone-logo.svg') no-repeat;
         background-size: contain;
     }
 
     .header .info .logo2 {
         display: inline-block;
-        height: 80px;
-        width: 200px;
-        margin: 15px;
+        height: 90px;
+        width: 210px;
+        margin: 25px;
         background: url('../Content/images/17zone-logo3.svg') no-repeat;
         background-size: contain;
     }
@@ -58,12 +76,12 @@ body {
     background-size: contain;
     height: 40px;
     width: 300px;
-    margin-top: 20px;
+    margin: 30px 80px;
     float: right;
 }
 
 .switchLanguage {
-    margin: 80px 20px 0;
+    margin: 90px 100px;
     text-align: right;
     color: #fff;
     font-size: 14px;
@@ -71,7 +89,7 @@ body {
 
 .header .nav {
     /* background: linear-gradient( #364d8e 0%, #1c284a 48%, #4665b9 100%); */
-    background: url('../Content/images/banner.png') no-repeat;
+    background: #F0F0F0 no-repeat;
     background-size: cover;
     text-align: center;
     min-width: 600px;
@@ -79,7 +97,7 @@ body {
 
     .header .nav .item {
         display: inline-block;
-        color: brown;
+        color: #7B7B7B;
         font-weight: bold;
         padding: 0 10px;
         margin: 0 5px;
@@ -90,30 +108,16 @@ body {
     }
 
         .header .nav .item:hover {
-            background: brown;
+            background: #9D9D9D;
             color: #fff;
         }
 
         .header .nav .item:active {
-            background: rgb(201, 53, 53);
+            background: #6C6C6C;
         }
 
 .content {
     margin-top: 150px;
-}
-
-.body, .body2 {
-    color: #fff;
-    margin: 0 auto;
-    padding: 50px 20px;
-    font-size: 20px;
-    align-self: center;
-    height: calc(100vh - 150px);
-    overflow: hidden;
-}
-
-.body2 {
-    background: gray;
 }
 
 .vertical-middle {
@@ -128,51 +132,98 @@ body {
     position: relative;
 }
 
-.title {
-    font-size: 20px;
-    background: url('../Content/images/banner.png') no-repeat;
+    .info-content h1 {
+        font-size: 2.4em;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .info-content p {
+        margin: 5px 5px;
+        font-weight: 400;
+    }
+
+.image-content {
+    background: url('../Content/images/default-placeholder.png') no-repeat;
     background-size: cover;
-    color: brown;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 15px;
-    width: 80%;
-    margin: 0 10% 10px;
-    position: absolute;
-    top: 10px;
-}
-
-.info-content p, .info-content span {
-    margin: 0 5px;
-}
-
-.map {
-    background: url('../Content/images/map.gif') no-repeat;
-    background-size: cover;
-    min-height: 20vw;
-    height: 25vw;
-}
-
-.room1 {
-    background: url('../Content/images/room1.png') no-repeat;
-    background-size: cover;
-    min-height: 20vw;
-    height: 25vw;
-}
-
-.room2 {
-    background: url('../Content/images/room2.png') no-repeat;
-    background-size: cover;
-    min-height: 20vw;
-    height: 25vw;
-}
-
-.map, .room1, .room2 {
-    border-radius: 15px;
+    border-radius: 20px;
     box-shadow: 1px 1px 10px black;
-    margin: 10px;
+    margin: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: 75%;
+    width: 75%;
 }
+
+.image-map {
+    background: url('../Content/images/map.gif') no-repeat;
+    background-size: cover;
+}
+
+.image-room1 {
+    background: url('../Content/images/room1.png') no-repeat;
+    background-size: cover;
+}
+
+.image-room2 {
+    background: url('../Content/images/room2.png') no-repeat;
+    background-size: cover;
+}
+
+.traffic-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+    .traffic-content h1 {
+        font-size: 1.6em;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .traffic-content p {
+        margin: 5px 5px;
+        font-weight: 400;
+    }
+
+.activity-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+    .activity-content a {
+        margin: 5px;
+        font-size: 1em;
+        font-weight: 400;
+        color: #fff;
+    }
+
+.contact-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+    .contact-content h1 {
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .contact-content p {
+        margin: 0 5px;
+        font-size: 1em;
+        font-weight: 400;
+    }

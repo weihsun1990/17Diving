@@ -1,15 +1,15 @@
 ﻿(function ($) {
 
-    $('.item').on('click', function () {
+    $('.anchor').on('click', function () {
         var index = $(this).attr('data-item');
-        bannerSwitch(index);
+        anchorSwitch(index);
     });
 
 })(jQuery)
 
 
-function bannerSwitch(key) {
+function anchorSwitch(key) {
     var top;
-    const singleHeight = document.body.clientHeight / 6;
+    const singleHeight = document.body.clientHeight / 7;
     window.scrollTo(0, (singleHeight * (key - 1)));
 }

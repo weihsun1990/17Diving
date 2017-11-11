@@ -184,6 +184,8 @@
     <Content Include="Content\images\17zone-logo.svg" />
     <Content Include="Content\images\17zone-logo3.svg" />
     <Content Include="Content\images\banner.png" />
+    <Content Include="Content\images\default-avatar.svg" />
+    <Content Include="Content\images\default-placeholder.png" />
     <Content Include="Content\images\icons.svg" />
     <Content Include="Content\images\map.gif" />
     <Content Include="Content\images\ocean.jpg" />
@@ -230,7 +232,6 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
